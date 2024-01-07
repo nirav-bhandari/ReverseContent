@@ -1,4 +1,4 @@
-package org.example
+package com.reverse_content
 
 class FileReverser(private val fileHandler: FileHandler, private val contentReverser: ContentReverser) {
     fun reverseFileContents(inputFile: String, outputFile: String) {
